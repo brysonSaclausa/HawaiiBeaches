@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CE9AA612609095A003BD25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9AA602609095A003BD25B /* AppDelegate.swift */; };
-		7CE9AA632609095A003BD25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9AA622609095A003BD25B /* ViewController.swift */; };
-		7CE9AA652609095B003BD25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9AA642609095B003BD25B /* Assets.xcassets */; };
-		7CE9AA682609095B003BD25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9AA662609095B003BD25B /* Main.storyboard */; };
+		7CE9AA7E260A9338003BD25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9AA7D260A9338003BD25B /* AppDelegate.swift */; };
+		7CE9AA80260A9338003BD25B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9AA7F260A9338003BD25B /* SceneDelegate.swift */; };
+		7CE9AA82260A9338003BD25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9AA81260A9338003BD25B /* ViewController.swift */; };
+		7CE9AA85260A9338003BD25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9AA83260A9338003BD25B /* Main.storyboard */; };
+		7CE9AA87260A933C003BD25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9AA86260A933C003BD25B /* Assets.xcassets */; };
+		7CE9AA8A260A933C003BD25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9AA88260A933C003BD25B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CE9AA5D2609095A003BD25B /* HawaiiBeachApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawaiiBeachApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CE9AA602609095A003BD25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CE9AA622609095A003BD25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CE9AA642609095B003BD25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CE9AA672609095B003BD25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CE9AA692609095B003BD25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CE9AA6A2609095B003BD25B /* HawaiiBeachApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HawaiiBeachApp.entitlements; sourceTree = "<group>"; };
+		7CE9AA7A260A9338003BD25B /* iOSHawaiiBeaches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHawaiiBeaches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE9AA7D260A9338003BD25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE9AA7F260A9338003BD25B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CE9AA81260A9338003BD25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE9AA84260A9338003BD25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE9AA86260A933C003BD25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE9AA89260A933C003BD25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE9AA8B260A933C003BD25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7CE9AA5A2609095A003BD25B /* Frameworks */ = {
+		7CE9AA77260A9338003BD25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,70 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7CE9AA542609095A003BD25B = {
+		7CE9AA71260A9338003BD25B = {
 			isa = PBXGroup;
 			children = (
-				7CE9AA5F2609095A003BD25B /* HawaiiBeachApp */,
-				7CE9AA5E2609095A003BD25B /* Products */,
+				7CE9AA7C260A9338003BD25B /* iOSHawaiiBeaches */,
+				7CE9AA7B260A9338003BD25B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7CE9AA5E2609095A003BD25B /* Products */ = {
+		7CE9AA7B260A9338003BD25B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CE9AA5D2609095A003BD25B /* HawaiiBeachApp.app */,
+				7CE9AA7A260A9338003BD25B /* iOSHawaiiBeaches.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CE9AA5F2609095A003BD25B /* HawaiiBeachApp */ = {
+		7CE9AA7C260A9338003BD25B /* iOSHawaiiBeaches */ = {
 			isa = PBXGroup;
 			children = (
-				7CE9AA602609095A003BD25B /* AppDelegate.swift */,
-				7CE9AA622609095A003BD25B /* ViewController.swift */,
-				7CE9AA642609095B003BD25B /* Assets.xcassets */,
-				7CE9AA662609095B003BD25B /* Main.storyboard */,
-				7CE9AA692609095B003BD25B /* Info.plist */,
-				7CE9AA6A2609095B003BD25B /* HawaiiBeachApp.entitlements */,
+				7CE9AA7D260A9338003BD25B /* AppDelegate.swift */,
+				7CE9AA7F260A9338003BD25B /* SceneDelegate.swift */,
+				7CE9AA81260A9338003BD25B /* ViewController.swift */,
+				7CE9AA83260A9338003BD25B /* Main.storyboard */,
+				7CE9AA86260A933C003BD25B /* Assets.xcassets */,
+				7CE9AA88260A933C003BD25B /* LaunchScreen.storyboard */,
+				7CE9AA8B260A933C003BD25B /* Info.plist */,
 			);
-			path = HawaiiBeachApp;
+			path = iOSHawaiiBeaches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CE9AA5C2609095A003BD25B /* HawaiiBeachApp */ = {
+		7CE9AA79260A9338003BD25B /* iOSHawaiiBeaches */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CE9AA6D2609095B003BD25B /* Build configuration list for PBXNativeTarget "HawaiiBeachApp" */;
+			buildConfigurationList = 7CE9AA8E260A933C003BD25B /* Build configuration list for PBXNativeTarget "iOSHawaiiBeaches" */;
 			buildPhases = (
-				7CE9AA592609095A003BD25B /* Sources */,
-				7CE9AA5A2609095A003BD25B /* Frameworks */,
-				7CE9AA5B2609095A003BD25B /* Resources */,
+				7CE9AA76260A9338003BD25B /* Sources */,
+				7CE9AA77260A9338003BD25B /* Frameworks */,
+				7CE9AA78260A9338003BD25B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HawaiiBeachApp;
-			productName = HawaiiBeachApp;
-			productReference = 7CE9AA5D2609095A003BD25B /* HawaiiBeachApp.app */;
+			name = iOSHawaiiBeaches;
+			productName = iOSHawaiiBeaches;
+			productReference = 7CE9AA7A260A9338003BD25B /* iOSHawaiiBeaches.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7CE9AA552609095A003BD25B /* Project object */ = {
+		7CE9AA72260A9338003BD25B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					7CE9AA5C2609095A003BD25B = {
+					7CE9AA79260A9338003BD25B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 7CE9AA582609095A003BD25B /* Build configuration list for PBXProject "HawaiiBeachApp" */;
+			buildConfigurationList = 7CE9AA75260A9338003BD25B /* Build configuration list for PBXProject "iOSHawaiiBeaches" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,53 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 7CE9AA542609095A003BD25B;
-			productRefGroup = 7CE9AA5E2609095A003BD25B /* Products */;
+			mainGroup = 7CE9AA71260A9338003BD25B;
+			productRefGroup = 7CE9AA7B260A9338003BD25B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CE9AA5C2609095A003BD25B /* HawaiiBeachApp */,
+				7CE9AA79260A9338003BD25B /* iOSHawaiiBeaches */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CE9AA5B2609095A003BD25B /* Resources */ = {
+		7CE9AA78260A9338003BD25B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE9AA652609095B003BD25B /* Assets.xcassets in Resources */,
-				7CE9AA682609095B003BD25B /* Main.storyboard in Resources */,
+				7CE9AA8A260A933C003BD25B /* LaunchScreen.storyboard in Resources */,
+				7CE9AA87260A933C003BD25B /* Assets.xcassets in Resources */,
+				7CE9AA85260A9338003BD25B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CE9AA592609095A003BD25B /* Sources */ = {
+		7CE9AA76260A9338003BD25B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE9AA632609095A003BD25B /* ViewController.swift in Sources */,
-				7CE9AA612609095A003BD25B /* AppDelegate.swift in Sources */,
+				7CE9AA82260A9338003BD25B /* ViewController.swift in Sources */,
+				7CE9AA7E260A9338003BD25B /* AppDelegate.swift in Sources */,
+				7CE9AA80260A9338003BD25B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7CE9AA662609095B003BD25B /* Main.storyboard */ = {
+		7CE9AA83260A9338003BD25B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7CE9AA672609095B003BD25B /* Base */,
+				7CE9AA84260A9338003BD25B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE9AA88260A933C003BD25B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE9AA89260A933C003BD25B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7CE9AA6B2609095B003BD25B /* Debug */ = {
+		7CE9AA8C260A933C003BD25B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,17 +216,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		7CE9AA6C2609095B003BD25B /* Release */ = {
+		7CE9AA8D260A933C003BD25B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,79 +271,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7CE9AA6E2609095B003BD25B /* Debug */ = {
+		7CE9AA8F260A933C003BD25B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HawaiiBeachApp/HawaiiBeachApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2S8MH4C36K;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = HawaiiBeachApp/Info.plist;
+				INFOPLIST_FILE = iOSHawaiiBeaches/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = B.HawaiiBeachApp;
+				PRODUCT_BUNDLE_IDENTIFIER = B.iOSHawaiiBeaches;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7CE9AA6F2609095B003BD25B /* Release */ = {
+		7CE9AA90260A933C003BD25B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HawaiiBeachApp/HawaiiBeachApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2S8MH4C36K;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = HawaiiBeachApp/Info.plist;
+				INFOPLIST_FILE = iOSHawaiiBeaches/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = B.HawaiiBeachApp;
+				PRODUCT_BUNDLE_IDENTIFIER = B.iOSHawaiiBeaches;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CE9AA582609095A003BD25B /* Build configuration list for PBXProject "HawaiiBeachApp" */ = {
+		7CE9AA75260A9338003BD25B /* Build configuration list for PBXProject "iOSHawaiiBeaches" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE9AA6B2609095B003BD25B /* Debug */,
-				7CE9AA6C2609095B003BD25B /* Release */,
+				7CE9AA8C260A933C003BD25B /* Debug */,
+				7CE9AA8D260A933C003BD25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CE9AA6D2609095B003BD25B /* Build configuration list for PBXNativeTarget "HawaiiBeachApp" */ = {
+		7CE9AA8E260A933C003BD25B /* Build configuration list for PBXNativeTarget "iOSHawaiiBeaches" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE9AA6E2609095B003BD25B /* Debug */,
-				7CE9AA6F2609095B003BD25B /* Release */,
+				7CE9AA8F260A933C003BD25B /* Debug */,
+				7CE9AA90260A933C003BD25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7CE9AA552609095A003BD25B /* Project object */;
+	rootObject = 7CE9AA72260A9338003BD25B /* Project object */;
 }
