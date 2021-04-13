@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let baseURL = "http://hawaiibeachsafety.com/rest/conditions.json"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Hello World 
+        // Hello World
+        fetch()
+        
     }
-
-
+    
+    func fetch() {
+        
+    }
 }
 
